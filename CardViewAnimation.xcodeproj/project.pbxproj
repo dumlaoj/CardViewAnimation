@@ -12,6 +12,7 @@
 		1724AE9321FA218B003A3670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1724AE9221FA218B003A3670 /* Assets.xcassets */; };
 		1724AE9621FA218B003A3670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1724AE9421FA218B003A3670 /* LaunchScreen.storyboard */; };
 		1724AE9F21FA2222003A3670 /* UIView+ConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724AE9E21FA2222003A3670 /* UIView+ConstraintExtensions.swift */; };
+		1724AEA121FA2276003A3670 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724AEA021FA2276003A3670 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1724AE9521FA218B003A3670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1724AE9721FA218B003A3670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1724AE9E21FA2222003A3670 /* UIView+ConstraintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintExtensions.swift"; sourceTree = "<group>"; };
+		1724AEA021FA2276003A3670 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1724AE9D21FA21C9003A3670 /* Supporting Files */,
 				1724AE8D21FA2189003A3670 /* ViewController.swift */,
+				1724AEA021FA2276003A3670 /* CardViewController.swift */,
 				1724AE9221FA218B003A3670 /* Assets.xcassets */,
 				1724AE9721FA218B003A3670 /* Info.plist */,
 			);
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1724AEA121FA2276003A3670 /* CardViewController.swift in Sources */,
 				1724AE9F21FA2222003A3670 /* UIView+ConstraintExtensions.swift in Sources */,
 				1724AE8E21FA2189003A3670 /* ViewController.swift in Sources */,
 				1724AE8C21FA2189003A3670 /* AppDelegate.swift in Sources */,
